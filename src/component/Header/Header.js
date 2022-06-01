@@ -21,15 +21,17 @@ function Header() {
       <Navbar expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mx-auto align-items-center">
-            <Nav.Link href="">HOME</Nav.Link>
-            <Nav.Link href="">ADVERTISERS</Nav.Link>
-            <Nav.Link href="">PUBLISHERS</Nav.Link>
-            <Nav.Link href="">INFLUENCERS</Nav.Link>
-            <Nav.Link href="">AD FORMATS</Nav.Link>
-            <Nav.Link href="">BLOG</Nav.Link>
-            <Nav.Link href="">CONTACT US</Nav.Link>
-            <div className="sign-log-btn py-2 px-4 shadow rounded-pill">
+          <Nav className="align-items-center mx-auto">
+            <div className="d-flex">
+              <Nav.Link href="">HOME</Nav.Link>
+              <Nav.Link href="">ADVERTISERS</Nav.Link>
+              <Nav.Link href="">PUBLISHERS</Nav.Link>
+              <Nav.Link href="">INFLUENCERS</Nav.Link>
+              <Nav.Link href="">AD FORMATS</Nav.Link>
+              <Nav.Link href="">BLOG</Nav.Link>
+              <Nav.Link href="">CONTACT US</Nav.Link>
+            </div>
+            <div className="py-2 px-4 shadow rounded-pill">
               <button className="login-btn" type="button">
                 LOGIN
               </button>

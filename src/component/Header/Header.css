@@ -16,4 +16,8 @@
   background-color: #ff6f00;
   color: #ffffff;
   border: none;
+  transition: all 0.3s ease-in-out;
+}
+.signup-btn:hover {
+  background-color: #644f9c;
 }
