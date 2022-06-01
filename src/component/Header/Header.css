@@ -1,0 +1,19 @@
+.nav-link {
+  color: #644f9c !important;
+  transition: all 0.3s ease-in-out;
+  margin: 0 20px;
+}
+
+.nav-link:hover {
+  color: #ff6f00 !important;
+}
+
+.login-btn {
+  background-color: none;
+  border: none;
+}
+.signup-btn {
+  background-color: #ff6f00;
+  color: #ffffff;
+  border: none;
+}
